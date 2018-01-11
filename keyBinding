@@ -1,0 +1,14 @@
+[
+    { "keys": ["f12"], "command": "goto_definition" },
+    { "keys": ["ctrl+d"], "command": "reindent", "args": { "single_line": false } },
+    { "keys": ["f5"], "command" : "refresh_folder_list"}
+    // Fix End of line
+    ,{ "keys": ["ctrl+right"], "command": "move_to", "args": {"to": "hardeol", "extend": false} }
+    // Fix Beginning of line
+    ,{ "keys": ["ctrl+left"], "command": "move_to", "args": {"to": "hardbol", "extend": false} }
+    // Fix end of line + select
+    ,{ "keys": ["ctrl+shift+right"], "command": "move_to", "args": {"to": "hardeol", "extend": true} }
+    // Fix beginning of line + select
+    ,{ "keys": ["ctrl+shift+left"], "command": "move_to", "args": {"to": "hardbol", "extend": true} }
+
+]
