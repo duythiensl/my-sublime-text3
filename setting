@@ -1,0 +1,20 @@
+{
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/User/SublimeLinter/Material Spaceblack Oceanic (SL).tmTheme",
+	"detect_indentation": false,
+	"font_face": "Fira Code",
+	"font_size": 11,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Angular CLI",
+		"Bootstrap 3 Autocomplete",
+		"C++",
+		"EON JS snippets",
+		"Vintage"
+	],
+	"tab_size": 4,
+	"theme": "Material Spaceblack.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"update_check": false
+}
